@@ -1,0 +1,9 @@
+export const ADD_COMMENT = "ADD_COMMENT";
+export const DISHES_LOADING = "DISHES_LOADING";
+export const DISHES_FAILED = "DISHES_FAILED";
+export const ADD_DISHES = "ADD_DISHES";
+export const ADD_COMMENTS = "ADD_COMMENTS";
+export const COMMENTS_FAILED = "COMMENTS-FAILED";
+export const PROMOS_LOADING = "PROMOS-LOADING";
+export const ADD_PROMOS = "ADD-PROMOS";
+export const PROMOS_FAILED = "PROMOS_FAILED";
