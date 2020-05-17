@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { Loading } from "./LoadingComponent";
 import { baseUrl } from "./shared/baseUrl";
 
-function RenderMenuItem({ dish, onClick }) {
+function RenderMenuItem({ dish }) {
   return (
     <Card>
       <Link to={`/menu/${dish.id}`}>
@@ -58,6 +58,7 @@ const Menu = (props) => {
             </BreadcrumbItem>
             <BreadcrumbItem active>Menu</BreadcrumbItem>
           </Breadcrumb>
+          =
           <div className="col-12">
             <h3>Menu</h3>
             <hr />
